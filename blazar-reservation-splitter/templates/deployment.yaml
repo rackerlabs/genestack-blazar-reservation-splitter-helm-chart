@@ -37,7 +37,7 @@ spec:
         - name: RABBITMQ_HOST
           value: {{ tuple "oslo_messaging" "internal" . | include "helm-toolkit.endpoints.hostname_fqdn_endpoint_lookup" | quote }}
         - name: RABBITMQ_PORT
-          value: {{ tuple "oslo_messaging" "internal" "amqp" . | include "helm-toolkit.endpoints.host_and_port_endpoint_uri_lookup" | quote }}
+          value: {{ tuple "oslo_messaging" "internal" "amqp" . | include "helm-toolkit.endpoints.endpoint_port_lookup" | quote }}
         - name: RABBITMQ_USER
           value: {{ .Values.endpoints.oslo_messaging.auth.user | quote }}
         - name: RABBITMQ_PASSWORD

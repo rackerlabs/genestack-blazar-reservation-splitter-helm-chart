@@ -3,13 +3,13 @@ entries:
   blazar-reservation-splitter:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-02-11T15:12:32.024398074Z"
+    created: "2026-02-11T16:05:52.672174483Z"
     dependencies:
     - name: helm-toolkit
       repository: https://tarballs.opendev.org/openstack/openstack-helm-infra
       version: '>= 0.1.0'
     description: A Helm chart for Blazar Reservation Splitter
-    digest: f5d462c4f1ec18faa00327c37cdeba71c1269c8bb667647cfb044ca83f56ff14
+    digest: e946ceea3a5b73a019066a0320cc8026e1043af16839491e9a0761aaeb9621d2
     home: https://github.com/rackerlabs/genestack
     keywords:
     - openstack
@@ -27,4 +27,4 @@ entries:
     urls:
     - https://rackerlabs.github.io/genestack-blazar-reservation-splitter-helm-chart/blazar-reservation-splitter-0.1.0.tgz
     version: 0.1.0
-generated: "2026-02-11T15:12:31.978185199Z"
+generated: "2026-02-11T16:05:52.652399535Z"
